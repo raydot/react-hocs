@@ -2,6 +2,8 @@
 
 Study of Higher Order Components (HOC's) in React, starting from https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e
 
+Continuing with https://www.codingame.com/playgrounds/8595/reactjs-higher-order-components-tutorial
+
 # Other Sources
 
 [React's HOC page](https://reactjs.org/docs/higher-order-components.html)
