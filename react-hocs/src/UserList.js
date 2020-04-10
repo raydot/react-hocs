@@ -2,29 +2,15 @@ import React, { Component } from "react";
 import TableRow from "./TableRow";
 
 class UserList extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      users: [
-        {
-          id: 1,
-          name: "Bartleby",
-        },
-        {
-          id: 2,
-          name: "Jubjub",
-        },
-        {
-          id: 3,
-          name: "Whitlen",
-        },
-      ],
-    };
-  }
+  //compiler says this is unnecessary:
+  //   constructor(props) {
+  //     super(props);
+  //     // Moved into APP to be rendered by the HOC
+  //   }
 
   tabRow() {
-    if (this.state.users instanceof Array) {
-      return this.state.users.map(function (object, i) {
+    if (this.props.data instanceof Array) {
+      return this.props.data.map(function (object, i) {
         return <TableRow obj={object} key={i} />;
       });
     }
