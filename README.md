@@ -7,6 +7,7 @@ Continuing with https://www.codingame.com/playgrounds/8595/reactjs-higher-order-
 # Other Sources
 
 [React's HOC page](https://reactjs.org/docs/higher-order-components.html)
+
 [Dan Abramov post on React Components, Elements, and Instances](https://reactjs.org/blog/2015/12/18/react-components-elements-and-instances.html)
 
 # Notes
